@@ -2,10 +2,10 @@
 mkdir -p ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here;
 
 #get zip file from url and store it in the director you just created
-curl -L **URL** > ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/puppies.zip
+curl -L https://github.com/SashaBayan/puppyScript/blob/master/puppies.zip?raw=true > ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/puppies.zip
 
 #download the loop script that will run the files that open the puppy images
-curl -L **URL** > ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/loop.sh
+curl -L https://raw.githubusercontent.com/SashaBayan/puppyScript/master/who_let_the_dogs_out.sh > ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/loop.sh
 
 #unzip the file and save the uncompressed version in the same directory
 unzip -o ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/puppies.zip -d ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/
