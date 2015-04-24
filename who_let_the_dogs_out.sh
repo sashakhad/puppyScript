@@ -14,7 +14,7 @@
 for i in {1..18}
 do
   #open the image file
-   open -a ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/$i.jpg; 
+   open -a Preview ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/$i.jpg; 
    #stop for .3 seconds 
    sleep .3;
    #full screen the picture after it has been opened
