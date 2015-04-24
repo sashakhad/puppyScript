@@ -19,7 +19,7 @@ crontab -l > here_be_puppies;
 
 #copy the cron job to the temporary file
 #NOTE: the cronjob is currently set to run the script every two hours
-echo "* */2 * * * sh ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/loop.sh" >> here_be_puppies;
+echo "0 */2 * * * sh ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/loop.sh" >> here_be_puppies;
 
 #install new cron job in the crontab
 crontab here_be_puppies;
@@ -27,5 +27,5 @@ crontab here_be_puppies;
 #delete the temporary file used to store the cron job text
 rm here_be_puppies;
 
-#the file removes itself
+#this file, puppies.sh, removes itself 
 rm -- "$0";
