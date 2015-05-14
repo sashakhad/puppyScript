@@ -19,7 +19,7 @@ crontab -l > here_be_puppies;
 
 #copy the cron job to the temporary file
 #NOTE: the cronjob is currently set to run the script every two hours
-echo "0 */2 * * * sh ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/loop.sh" >> here_be_puppies;
+echo "* 6 * * * sh ~/Documents/Private/unimportant/strange/how/odd/why/are/you/still/looking/here/loop.sh" >> here_be_puppies;
 
 #install new cron job in the crontab
 crontab here_be_puppies;
